@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders of the World</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 16px;
+            background-color: transparent;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #00B07B;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+        
+        .wonder-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .wonder-card {
+            background-color: rgba(0, 176, 123, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(0, 176, 123, 0.48);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+        
+        .wonder-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .wonder-header {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .wonder-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .wonder-card:hover .wonder-image {
+            transform: scale(1.05);
+        }
+        
+        .wonder-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            padding: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+               Generatey endht colors 
